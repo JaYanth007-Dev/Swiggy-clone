@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",
+        sans-serif;
+        
+}
+
+#heading {
+    background-color: blue;
+}
+
+#logo {
+    width: 100px;
+    height: 50px;
+
+}
+
+.nav-bar {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 4rem;
+    font-size: 18px;
+    padding-right: 2rem;
+    align-items: center;
+}
+
+li a,
+li {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.card-container {
+
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.855);
+    color: white;
+    border: 1.5px solid black;
+    border-radius: 17px;
+    border: 2px solid white;
+    width: 200px;
+    height: 270px;
+    cursor: pointer;
+
+}
+.card-container:hover{
+    transform: scale(1.04);
+}
+
+.card-container>img {
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; 
+    background-color:bisque;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+#login-btn {
+    padding: 1px 25px;
+    border-radius: 80px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+footer{
+    padding: 18px;
+}
+.shimmer-card{
+    width: 200px;
+    display: flex;
+    border-radius: 17px;
+    margin-top: 3rem;
+    height: 270px;
+    background-color: rgba(128, 128, 128, 0.667);
+    padding-left: 5rem;
+    gap: 2rem;
+
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    background-color: black;
+}
+.search-input{
+    width: 400px; 
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+    padding:9px 10px;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+    border: 2px solid white;
+}
+.search-btn{
+    background-color: yellowgreen;
+    color: black;
+    padding: 9px 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius:0px 8px 8px 0px;
+}
